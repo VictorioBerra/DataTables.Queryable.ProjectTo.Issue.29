@@ -8,7 +8,6 @@
 
     <ItemGroup>
     <PackageReference Include="AutoMapper" Version="7.0.1" />
-    <PackageReference Include="DataTables.Queryable" Version="1.7.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.1.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.1.4" />
@@ -17,5 +16,9 @@
     <PackageReference Include="Serilog.Extensions.Hosting" Version="2.0.0" />
     <PackageReference Include="Serilog.Sinks.Console" Version="3.1.1" />
   </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\DataTables.Queryable\DataTables.Queryable\DataTables.Queryable.csproj" />
+    </ItemGroup>
 
 </Project>
