@@ -81,6 +81,8 @@ namespace EFCore
 
                             auditEntity.Action = eventEntry.Action;
 
+                            Console.WriteLine(eventEntry.ToJson());
+
                             auditEntity.AuditData = eventEntry.ToJson();
                             auditEntity.PrimaryKey = string.Join(',', eventEntry.PrimaryKey.Select(k => k.Value.ToString()));                            
                             auditEntity.AuditDateUtc = auditableEventEntry.UpdatedOnUtc; // Preserve the updated on datetime
