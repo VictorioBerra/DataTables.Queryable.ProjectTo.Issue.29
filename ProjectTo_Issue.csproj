@@ -6,9 +6,9 @@
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
 
-    <ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Audit.EntityFramework" Version="14.0.4" />
     <PackageReference Include="AutoMapper" Version="7.0.1" />
-    <PackageReference Include="DataTables.Queryable" Version="1.7.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.1.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.1.4" />
